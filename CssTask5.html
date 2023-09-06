@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Task-5</title>
+    <style>
+        h1,p{
+            color: purple;
+        }
+        .main{
+            border: 2px solid black;
+            background-color: rgb(196, 196, 25);
+            width: 50%;
+            height: 500px; 
+        }
+        .button{
+            display: inline-block;
+            position: absolute;
+            padding: 5px;
+            margin-left: 10px;
+            width: 80px;
+            font-size: 17px;
+            color: blue;
+            background-color: white;
+            border-inline-style: solid;
+            border-inline-color: white black;
+            border-inline-width: 20px;
+            cursor: pointer;
+        }
+        .button:hover{
+            opacity: 0.3;
+        }
+        #home{
+            top: 50px;
+        }
+        #musing{
+            top: 90px;
+        }
+        #mytown{
+            top: 130px;
+        }
+        #links{
+            top: 170px;
+        }
+        hr.line1 {
+            border: 1px dotted purple;
+          }
+          
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <a href="#" id="home" class="button">Home Page</a>
+            <a href="#" id="musing" class="button">Musings</a>
+            <a href="#" id="mytown" class="button">My Town</a>
+            <a href="#" id="links" class="button">Links</a>
+        </div>
+
+            <div style="margin-left:180px; margin-right:20px">
+                <h1>My First Styled Page</h1>
+                <p>Welcome to my styled page!</p>
+                <p>It lacks images, but atleast it has style. And it has links, even if they don't go anywhere...</p>
+                <p>There should be more here, but I don't know what yet.</p>
+                <hr class="line1">
+                <p style="font-family:Georgia, 'Times New Roman', Times, serif"><i>Made 5 April 2004</i></p>
+                <p style="font-family:Georgia, 'Times New Roman', Times, serif; line-height:0px" ><i>by Divyanshi Gupta.</i></p>
+            </div>
+        </div>
+</body>
+</html>
